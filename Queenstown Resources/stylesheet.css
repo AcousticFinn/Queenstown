@@ -1,0 +1,208 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+#page_container {
+    width: 1700px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 48px 16px rgba(0, 0, 0, 0.175);
+    border: 1px solid black;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#logo {
+    width: 200px;
+    float: left;
+    padding: 15px 0 20px 40px;
+}
+
+#logo img {
+    width: 100px;
+}
+
+#page_title {
+    width: 1000px;
+    float: left;
+    text-align: center;
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.title {
+    font-size: 40px;
+}
+
+nav {
+    clear: both;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(199, 179, 127);
+
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 30px;
+    font-size: 20px;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+nav li a:hover {
+    background-color: rgb(198, 12, 48);
+}
+
+#intro {
+    background: black url(resources/queenstown-late-night.jpg) no-repeat center;
+    background-size: cover;
+    padding-bottom: 300px;
+    padding-top: 300px;
+}
+
+#intro_block {
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.175);
+    padding-top: 10px;
+    width: 850px;
+    margin-left: 430px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+#intro_block a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 40px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+#intro_block a:hover {
+    background-color: rgb(198, 12, 48);
+}
+
+#intro_block h1 {
+    font-size: 25pt;
+}
+
+#about_qtown {
+    clear: both;
+}
+
+#lake_image {
+    width: 800px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#lake_image img {
+    width: 800px;
+}
+
+
+#qtown_txt {
+    float: left;
+    width: 600px;
+    text-align: justify;
+    padding-left: 100px;
+}
+
+footer {
+    clear: both;
+    width: 1700px;
+    background-color: gray;
+    padding-bottom: 200px;
+}
+
+#more_info {
+    float: left;
+    width: 400px;
+    margin: 25px; 
+}
+
+#footer_txt {
+    float: center;
+    font-size: 15px;
+}
+
+#socials {
+    float: center;
+    width: 10px;
+}
+
+#activities_title {
+    float: center;
+    padding-left: 575px;
+    font-size: 50px;
+}
+
+#milfordsound_content {
+    float: left;
+    width: 200px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+#lake_wakatipu_img img {
+    width: 450px;
+    float: left;
+    padding-top: 50px;
+    padding-left: 150px
+}
+
+#qtown_gardens_img img{
+    padding-top: 50px;
+    width: 450px;
+    padding-left: 20px;
+    float: left;
+}
+
+#qtown_gardens_content {
+    float: left;
+    width: 220px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+#coronet_peak_img img {
+    float: left;
+    width: 450px;
+    padding-left: 150px;
+}
+
+#coronet_peak_content {
+    float: left;
+    width: 220px;
+    padding-left: 30px;
+}
+
+#kawaru_bridge_bungy_img img {
+    float: left;
+    width: 450px;
+    height: 250px;
+}
+
+#kawaru_bridge_bungy_content {
+    float: left;
+    width: 220px;
+    padding-left: 30px;
+}
+
