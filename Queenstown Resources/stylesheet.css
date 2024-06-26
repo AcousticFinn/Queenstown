@@ -126,6 +126,7 @@ nav li a:hover {
 }
 
 footer {
+    display: flex;
     clear: both;
     width: 1700px;
     background-color: gray;
@@ -150,7 +151,7 @@ footer {
 
 #activities_title {
     float: center;
-    padding-left: 575px;
+    padding-left: 395px;
     font-size: 50px;
 }
 
@@ -206,3 +207,25 @@ footer {
     padding-left: 30px;
 }
 
+#outdoor_activities_img img {
+    float: left;
+    width: 450px;
+    padding-left: 150px;
+}
+
+#outdoor_activities_content {
+    float: left;
+    width: 220px;
+    padding-left: 30px;
+}
+
+#wine_tours_img img {
+    float: left;
+    width: 450px;
+}
+
+#wine_tours_content {
+    float: left;
+    padding-left: 30px;
+    width: 220px;
+}
